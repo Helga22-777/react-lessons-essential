@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.falseLogin  {
+  background-color: rgb(243, 56, 56);
+}
+
+.trueLogin {
+  background-color: rgb(29, 207, 29);
+}
+
+.main-site {
+  border: 1px solid silver;
+  padding: 10px;
+  margin: 5px;
+}
+
+section {
+  padding: 10px;
+  margin: 5px;
+}
