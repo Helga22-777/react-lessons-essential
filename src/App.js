@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import LifeCycle from './LifeCycle/LifeCycle';
+import TranslateByRedux from './TranslateByRedux/TranslateByRedux';
 
-function App() {
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+        display: false,
+        title: ''
+    }
+}
+  showComponent = () => {
+    this.setState({ display: !this.state.display });
+    console.log(this.state.display);
+}
+render() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button onClick={this.showComponent}>Click!</button>
+        {this.state.display && <LifeCycle />}
+     <TranslateByRedux />
     </div>
-  );
+  )};
 }
 
 export default App;
