@@ -1,0 +1,38 @@
+
+$color-bg: rgb(16, 16, 84);
+$color-text: white;
+$text-opac: 0.8;
+body {
+    width: 100%;
+    height: 100%;
+    background: $color-bg;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    background: rgb(1, 1, 31);
+    border: 2px solid $color-bg;
+    border-radius: 9px;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+    box-shadow: 0px 0px 10px;
+   label {  
+       font-size: 20px;
+       color: $color-text;
+       opacity: $text-opac;
+   }
+   input {
+       width: 200px;
+       padding: 5px;
+       &:hover {
+           background: wheat;
+       }
+   }
+   p {
+       color: $color-text;
+       opacity: $text-opac;
+   }
+}

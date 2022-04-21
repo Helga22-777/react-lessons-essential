@@ -1,0 +1,27 @@
+.textarea {
+    margin: 20px 0 0 58px;
+    border-radius: 5px;
+}
+.label {
+    margin: 15px;
+}
+.input {
+    width: 206px;
+    border-radius: 5px;
+}
+.input:hover, .textarea:hover {
+    background-color: silver;
+}
+.btn {
+   margin-right: 35px;
+   padding: 10px 0;
+   border: none;
+   color: blue;
+   border-radius: 5px;
+}
+.btn:hover {
+    background-color: silver;
+}
+.not_valid {
+    border: 3px solid red;
+}
