@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-around;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-top: 20px;
+}
+form label {
+  margin: 10px;
+}
+form input, form textarea {
+  margin-top: 15px;
+}
+input {
+  padding: 5px;
+}
+p {
+  color: blue;
+}
+.btn {
+  width: 150px;
+  height: 52px;
+  border: none;
+  background-color: rgb(146, 119, 79);
+}
+.btn:hover {
+  opacity: 0.9;
+}
