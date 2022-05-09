@@ -15,6 +15,7 @@
 /src/components/Parent
 /src/components/RefExample
 /src/components/Portal
+/src/myContext.js
 # misc
 .DS_Store
 .env.local
